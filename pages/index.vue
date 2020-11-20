@@ -5,14 +5,13 @@
         <div class="row">
           <div class="row-text">
             <img src="../store/zsv.png" alt="" class="logo">
-            <h2> Želiš da ove slike <span></span>postanu stvarnost?</h2> <span></span>
-              <a href="https://zasvavrimena.nashajduk.hr/" target="_blank">
-                <button class="btn">Upiši ime</button></a>
+            <!-- <h2> Tvoje ime u parku <span></span>ZA SVA VRIMENA</h2> <span></span> -->
+             
           </div>
-            <!-- <div class="row-img row-img2">
-              <img src="../store/park2.jpg" alt="" @contextmenu="handler($event)" class="row-img-position">
-              <div class="row-img-name row-img-name2"> {{full_name}}<div class="row-img-right row-img-right2">{{num}}</div></div>
-            </div> -->
+            <div class="row-img row-img3">
+              <img src="../store/park3.jpg" alt="" @contextmenu="handler($event)" class="row-img-position">
+              <div class="row-img-name row-img-name3"> {{full_name}}<div class="row-img-right row-img-right3">{{num}}</div></div>
+          </div>
         </div>
 
 
@@ -22,9 +21,11 @@
               <img src="../store/park.jpg" alt="" @contextmenu="handler($event)" class="row-img-position">
               <div class="row-img-name row-img-name1"> {{full_name}}<div class="row-img-right row-img-right1">{{num}}</div></div>
           </div>
-          <div class="row-img row-img3">
-            <img src="../store/park3.jpg" alt="" @contextmenu="handler($event)" class="row-img-position">
-            <div class="row-img-name row-img-name3"> {{full_name}}<div class="row-img-right row-img-right3">{{num}}</div></div>
+          <div class="row-text">
+            
+            <h2> Želiš da ove slike <span></span>postanu stvarnost?</h2> <span></span>
+              <a href="https://zasvavrimena.nashajduk.hr/" target="_blank">
+                <button class="btn">Upiši ime</button></a>
           </div>
         </div>
       </div>
@@ -55,12 +56,12 @@ html{
   width: 100%;
 }
 .bg{
-    height: 100vh;
+    height: 150vh;
     background-image: linear-gradient(
         to right bottom,
         rgba(0, 44, 76, 0.93),
         rgba(0, 44, 76, 0.93)), 
-        url(../store/poljud.jpg);
+        url(../store/slova2.jpg);
     background-size: cover;
     background-position: top;
     position:relative;
@@ -77,8 +78,8 @@ html{
 }
 
 .logo{
-  height: 4rem;
-  margin-bottom: .5rem;
+  height: 7rem;
+  margin-bottom: 3rem;
 }
 
 .row{
@@ -93,7 +94,6 @@ html{
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-style: italic;
-    margin-bottom: 5rem;
 
     & span{
       display: block;
@@ -229,6 +229,9 @@ html{
   .container{
     flex-direction: column;
   }
+  .row{
+    margin-bottom: 3rem;
+  }
 
 }
 
@@ -315,6 +318,14 @@ html{
 }
 .logo{
   height: 2.5rem;
+  margin-bottom: 0rem;
+}
+.bg{
+background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 44, 76, 0.93),
+        rgba(0, 44, 76, 0.93)), 
+        url(../store/slova3.jpg);
 }
 }
 

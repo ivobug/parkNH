@@ -56,7 +56,7 @@ html{
   width: 100%;
 }
 .bg{
-    height: 150vh;
+    height: 100vh;
     background-image: linear-gradient(
         to right bottom,
         rgba(0, 44, 76, 0.93),

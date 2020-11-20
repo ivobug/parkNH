@@ -9,10 +9,10 @@
               <a href="https://zasvavrimena.nashajduk.hr/" target="_blank">
                 <button class="btn">Upiši ime</button></a>
           </div>
-            <div class="row-img row-img2">
+            <!-- <div class="row-img row-img2">
               <img src="../store/park2.jpg" alt="" @contextmenu="handler($event)" class="row-img-position">
               <div class="row-img-name row-img-name2"> {{full_name}}<div class="row-img-right row-img-right2">{{num}}</div></div>
-            </div>
+            </div> -->
         </div>
 
 
@@ -60,7 +60,7 @@ html{
         to right bottom,
         rgba(0, 44, 76, 0.93),
         rgba(0, 44, 76, 0.93)), 
-        url(../store/poljud.jpg);
+        url(../store/slova2.jpg);
     background-size: cover;
     background-position: top;
     position:relative;
@@ -152,22 +152,23 @@ html{
         grid-row: 2/3;
         text-transform:capitalize;
         z-index: 3;
-        white-space: nowrap;
+        white-space: nowrap !important;
         color: white;
         display: flex;
-        flex-wrap: nowrap;
-        text-overflow: ellipsis;
-        // overflow: hidden;
+        flex-wrap: nowrap !important;
+
 
         &1{
+          -webkit-transform: perspective(10rem) rotateY(20deg) rotate(-1deg);
           transform: perspective(10rem) rotateY(20deg) rotate(-1deg);
           font-size: 1.6rem;
           top: 35%;
         }
         &2{
           transform: perspective(10rem) rotateY(20deg) rotate(-2deg);
-          font-size: .5rem;
-          top: 38%;
+          letter-spacing: -0.02rem;
+          font-size: .48rem;
+          top: 39%;
         }
         &3{
           transform: perspective(10rem) rotateY(-5deg) rotate(2deg);
@@ -177,15 +178,18 @@ html{
     }
 
     &-right{
-      position: absolute;
+      position: absolute !important;
 
       &1{
+        top: 0 !important;
         left: 155%;
       }
       &2{
+        top: 0 !important;
         left: 96%;
       }
       &3{
+        top: 0 !important;
         left: 100%;
       }
     }

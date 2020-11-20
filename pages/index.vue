@@ -117,7 +117,7 @@ html{
     &1{
       grid-template-rows:13rem 5.5rem 11.5rem;
       grid-template-columns:3.5rem 13.5rem 23rem;
-          margin-bottom: 5rem;
+      margin-bottom: 5rem;
 
     }
     &2{
@@ -159,7 +159,7 @@ html{
 
 
         &1{
-          -webkit-transform: perspective(10rem) rotateY(20deg) rotate(-1deg);
+          // -webkit-transform: perspective(10rem) rotateY(20deg) rotate(-1deg);
           transform: perspective(10rem) rotateY(20deg) rotate(-1deg);
           font-size: 1.6rem;
           top: 35%;

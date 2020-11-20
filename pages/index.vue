@@ -154,7 +154,10 @@ html{
         z-index: 3;
         white-space: nowrap;
         color: white;
-        overflow: hidden;
+        display: flex;
+        flex-wrap: nowrap;
+        text-overflow: ellipsis;
+        // overflow: hidden;
 
         &1{
           transform: perspective(10rem) rotateY(20deg) rotate(-1deg);

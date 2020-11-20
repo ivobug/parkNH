@@ -152,9 +152,10 @@ html{
         grid-row: 2/3;
         text-transform:capitalize;
         z-index: 3;
-        white-space: nowrap;
+        white-space: nowrap !important;
         color: white;
         display: flex;
+        flex-wrap: nowrap !important;
 
         &1{
           transform: perspective(10rem) rotateY(20deg) rotate(-1deg);
@@ -174,19 +175,23 @@ html{
     }
 
     &-right{
-      position: absolute;
+      position: absolute !important;
 
       &1{
+        top: 0 !important;
         left: 155%;
       }
       &2{
+        top: 0 !important;
         left: 96%;
       }
       &3{
+        top: 0 !important;
         left: 100%;
       }
     }
   }
+
 
 
 

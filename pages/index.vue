@@ -60,7 +60,7 @@ html{
         to right bottom,
         rgba(0, 44, 76, 0.93),
         rgba(0, 44, 76, 0.93)), 
-        url(../store/slova.jpg);
+        url(../store/poljud.jpg);
     background-size: cover;
     background-position: top;
     position:relative;

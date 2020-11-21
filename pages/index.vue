@@ -5,7 +5,7 @@
         <div class="row">
           <div class="row-text">
             <img src="../store/zsv.png" alt="" class="logo">
-            <!-- <h2> Tvoje ime u parku <span></span>ZA SVA VRIMENA</h2> <span></span> -->
+            <h2> Pogledaj kako izgleda<span></span> tvoje ime u Parku <span></span>Za Sva Vrimena</h2> <span></span><br>
              
           </div>
             <div class="row-img row-img3">
@@ -23,7 +23,7 @@
           </div>
           <div class="row-text">
             
-            <h2> Želiš da ove slike <span></span>postanu stvarnost?</h2> <span></span>
+            <h2> Želiš da ove fotografije <span></span>postanu stvarnost?</h2> <span></span>
               <a href="https://zasvavrimena.nashajduk.hr/" target="_blank">
                 <button class="btn">Upiši ime</button></a>
           </div>
@@ -79,7 +79,7 @@ html{
 
 .logo{
   height: 7rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .row{
@@ -304,7 +304,6 @@ html{
   }
   .row-text{
     font-size: 1.2rem;
-    margin-bottom: 2rem;
   }
   .row{
     margin-bottom: 0rem;

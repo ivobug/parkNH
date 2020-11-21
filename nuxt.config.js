@@ -21,6 +21,7 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    // ['../plugins/hotjar.js']
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -32,6 +33,13 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
+    ['@yabhq/nuxt-hotjar', { 
+      hjid: 2082747, // required
+      hjsv: 0, // optional
+      defer: false, // optional
+      async: false, // optional
+      dev: false // optional
+  }],
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)

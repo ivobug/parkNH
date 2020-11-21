@@ -38,7 +38,8 @@ export default {
    return{
      name:this.$route.query.name,
      full_name:"",
-     num:this.$route.query.clanska,
+     get_num:this.$route.query.clanska,
+     num:""
    }
  },
  methods : {
@@ -53,6 +54,14 @@ mounted(){
     }
     else{
       this.full_name=this.name
+    }
+  }
+  if(this.get_num){
+    if(this.get_num<100000){
+      this.num="000000"
+    }
+    else{
+      this.num=this.get_num
     }
   }
   

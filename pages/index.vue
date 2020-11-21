@@ -36,7 +36,7 @@
 export default {
  data(){
    return{
-     full_name:this.$route.query.name,
+     full_name:this.$route.query.name.substring(0,22),
      num:this.$route.query.clanska,
    }
  },

@@ -5,7 +5,7 @@
         <div class="row">
           <div class="row-text">
             <img src="../store/zsv.png" alt="" class="logo">
-            <h2> Pogledaj kako izgleda<span></span> tvoje ime u Parku <span></span>Za Sva Vrimena</h2> <span></span><br>
+            <h2> Pogledaj kako izgleda<span></span> tvoje ime u parku <span></span>Za sva vrimena</h2> <span></span><br>
              
           </div>
             <div class="row-img row-img3">

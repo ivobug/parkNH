@@ -34,7 +34,7 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     ['@yabhq/nuxt-hotjar', { 
-      hjid: 2082747, // required
+      hjid: 2098901, // required
       hjsv: 0, // optional
       defer: false, // optional
       async: false, // optional

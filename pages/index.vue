@@ -36,7 +36,8 @@
 export default {
  data(){
    return{
-     full_name:this.$route.query.name.substring(0,22),
+     name:this.$route.query.name,
+     full_name:"",
      num:this.$route.query.clanska,
    }
  },
@@ -44,6 +45,17 @@ export default {
     handler: function(e) {
         e.preventDefault();
      }
+},
+mounted(){
+  if(this.name){
+    if (this.name.length>22){
+      this.full_name=this.name.substring(0, 22)
+    }
+    else{
+      this.full_name=this.name
+    }
+  }
+  
 }
 }
 </script>

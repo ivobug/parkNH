@@ -97,7 +97,7 @@ html {
   width: 100%;
 }
 .bg {
-  height: 100vh;
+  height: 140vh;
   background-image: linear-gradient(
       to right bottom,
       rgba(0, 44, 76, 0.93),
@@ -270,6 +270,10 @@ html {
 }
 
 @media only screen and (max-width: 1538px) {
+  .bg {
+    height: 240vh;
+  }
+
   .container {
     flex-direction: column;
   }
@@ -286,34 +290,35 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
+  .bg {
+    height: 160vh;
+  }
+
   .row-img {
+    height: 14rem;
+    width: 17rem;
     margin-bottom: 2rem;
-    margin-left: -2.2rem;
+    margin-left: -3.9rem;
     &-position {
       outline-width: 0.2rem;
     }
     &1 {
-      height: 17rem;
-      width: 23rem;
-      grid-template-rows: 6.2rem 3rem 7.8rem;
-      grid-template-columns: 4rem 11rem 8rem;
+      grid-template-rows: 5.3rem 2.2rem 6.5rem;
+      grid-template-columns: 3rem 9rem 5rem;
       justify-content: center;
     }
     &-name1 {
-      top: 34%;
-      left: 5%;
+      top: 30%;
+      left: 6%;
       font-size: 0.8rem;
       transform: perspective(10rem) rotateY(17deg) rotate(1.8deg);
     }
 
     &2 {
-      height: 17rem;
-      width: 23rem;
-      grid-template-rows: 7.1rem 3.5rem 6.4rem;
-      grid-template-columns: 11rem 11.5rem 0.5rem;
+      grid-template-rows: 5.8rem 2.8rem 5.4rem;
+      grid-template-columns: 9rem 8rem;
       justify-content: center;
     }
-
     &-name2 {
       top: 37%;
       font-size: 0.8rem;
@@ -321,28 +326,25 @@ html {
     }
 
     &3 {
-      height: 17rem;
-      width: 23rem;
-      grid-template-rows: 7.5rem 4rem 5.5rem;
-      grid-template-columns: 11rem 12rem;
+      grid-template-rows: 6.2rem 3rem 4.8rem;
+      grid-template-columns: 9rem 8rem;
       justify-content: center;
     }
-
     &-name3 {
       top: 38%;
-      left: 5%;
+      left: 7%;
       font-size: 0.8rem;
       transform: rotate(0.5deg);
     }
 
     &-right1 {
-      left: 105%;
+      left: 100%;
     }
     &-right2 {
-      left: 86%;
+      left: 105%;
     }
     &-right3 {
-      left: 83%;
+      left: 100%;
     }
   }
 

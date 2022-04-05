@@ -25,11 +25,6 @@
             <div class="row-img-right row-img-right3">{{ num }}</div>
           </div>
         </div>
-
-        <!-- <div class="row-img row-img2">
-              <img src="../store/park2.jpg" alt="" @contextmenu="handler($event)" class="row-img-position">
-              <div class="row-img-name row-img-name2"> {{full_name}}<div class="row-img-right row-img-right2">{{num}}</div></div>
-            </div> -->
       </div>
 
       <div class="row">

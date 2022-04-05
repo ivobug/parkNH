@@ -7,7 +7,7 @@
           <img src="../store/zsv.png" alt="" class="logo" />
           <h2>
             Pogledaj kako izgleda <span></span> tvoje ime u parku
-            <span></span> Za sva vremena
+            <span></span> Za sva vrimena
           </h2>
           <span></span>
           <br />
@@ -41,6 +41,15 @@
           </div>
         </div>
 
+        <div class="row-text">
+          <h2>Želiš da ove fotografije <span></span>postanu stvarnost?</h2>
+          <span></span>
+          <a href="https://zasvavrimena.nashajduk.hr/" target="_blank">
+            <button class="btn">Upiši ime</button></a
+          >
+        </div>
+
+        <!-- 
         <div class="row-img row-img2">
           <img
             src="../store/slika_2022_2.jpg"
@@ -52,17 +61,7 @@
             {{ full_name }}
             <div class="row-img-right row-img-right2">{{ num }}</div>
           </div>
-        </div>
-      </div>
-
-      <div class="row cta">
-        <div class="row-text">
-          <h2>Želiš da ove fotografije <span></span>postanu stvarnost?</h2>
-          <span></span>
-          <a href="https://zasvavrimena.nashajduk.hr/" target="_blank">
-            <button class="btn">Upiši ime</button></a
-          >
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -92,7 +91,7 @@ html {
   width: 100%;
 }
 .bg {
-  height: 140vh;
+  height: 100vh;
   background-image: linear-gradient(
       to right bottom,
       rgba(0, 44, 76, 0.93),
@@ -266,7 +265,7 @@ html {
 
 @media only screen and (max-width: 1538px) {
   .bg {
-    height: 240vh;
+    height: 190vh;
   }
 
   .container {
@@ -286,7 +285,7 @@ html {
 
 @media only screen and (max-width: 768px) {
   .bg {
-    height: 160vh;
+    height: 120vh;
   }
 
   .row-img {

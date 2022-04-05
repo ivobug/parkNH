@@ -7,7 +7,7 @@
           <img src="../store/zsv.png" alt="" class="logo" />
           <h2>
             Pogledaj kako izgleda <span></span> tvoje ime u parku
-            <span></span> Za sva vremena
+            <span></span> Za sva vrimena
           </h2>
           <span></span>
           <br />

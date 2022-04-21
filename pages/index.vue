@@ -44,7 +44,7 @@
         <div class="row-text">
           <h2>Želiš da ove fotografije <span></span>postanu stvarnost?</h2>
           <span></span>
-          <a href="https://zasvavrimena.nashajduk.hr/" target="_blank">
+          <a href="https://nashajduk.hr/za-sva-vrimena/" target="_blank">
             <button class="btn">Upiši ime</button></a
           >
         </div>
